@@ -1,0 +1,595 @@
+*{
+    padding:0;
+   color:white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.bg-success{
+    width:80%;
+    border-radius: 5px;
+    position:relative;
+    left:9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+nav{
+    background-color: gold;
+    display:flex;
+    align-items: center;
+    position:relative;
+    left:9%;
+    width:80%;
+    height:80px;
+    border-radius: 5px;
+}
+
+
+.dropdown{
+    width:20%;
+    height:100%;
+}
+.changetheme{
+    width:30%;
+    height:50%;
+}
+.btn:hover{
+    cursor:pointer;
+    border:2px solid white;
+}
+
+.home:hover{
+    border:2px solid white;
+}
+.contact:hover{
+    border:2px solid white;
+}
+.webwiz{
+    height:50px;
+   width:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./webwiz_nitr_logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    
+}
+.webwiz:hover{
+    border: 2px solid white;
+    
+}
+.change1{
+    background-color: black;
+}
+.change2{
+    background-color: rgb(50, 50, 234);
+}
+.change3{
+    background-color: orange;
+}
+h1{
+    opacity:0;
+    font-family: cursive;
+}
+.opacity{
+    opacity:1;
+}
+.carousel:hover{
+    border:2px solid white;
+}
+.card-body{
+    display: flex;
+    width:18rem;
+    position:absolute ; 
+     z-index: 2; 
+    
+    
+}
+.in{
+    width:16rem;
+    height:10%;
+} 
+.containe{
+    width: 100%;
+    height:40%;
+} 
+.one{
+    height:18rem;
+    width:18rem;
+}
+.ic{
+     position: absolute; 
+     z-index: 1; 
+}
+.temp{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5%;
+    
+    padding-left:7.5%;
+
+}
+
+@media (max-width: 2100px) {
+    nav{
+        gap:5%;
+    }
+    .home{
+        width:10%;
+        text-align: center;
+    }
+    .contact{
+        width:5%;
+    }
+    .select{
+        width:50%;
+        height:50%;
+        display:flex;
+        margin-left:10%;
+    }
+    input{
+        width:100%;
+    }
+    select{
+        height:100%;
+    }
+    .carousel{
+        padding-top: 30px;
+
+        width:80%;
+        height:40rem;
+        position:relative;
+        left:9%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:2%;
+        
+    }
+    .containe {
+        width: 30%;                                     
+        margin-bottom: 20px;                          
+
+    }
+    .one{
+        height:15rem;
+        width:15rem;
+        border:none;
+        border-radius: 5%;
+    }
+    .card-body{
+        display: flex;
+        width:100%;
+        margin-top: 8%;
+    }
+    .in{
+        width:12.7rem;
+        height:10%;
+    } 
+    /* for clock */
+    .clockcont{
+        width:80%;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        left:9%;
+    }
+    .clock{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width:12%;
+        height:40%;
+        background: rgba(255, 255, 255,0.2);
+        border-radius: 10px;
+        
+    }
+    .hour{
+        width:20%;
+        height:30%;
+        border-radius: 5px;
+    }
+    .minutes{
+        width:20%;
+        height:30%;
+        border-radius: 5px;
+    }
+    .seconds{
+        width:20%;
+        height:30%;
+        border-radius: 5px;
+    }
+    .ampm{
+        width:20%;
+        height: 30%;
+    }
+    .date{
+        width:100%;
+        height:30%;
+        text-align: center;
+    }
+    .day{
+        width:100%;
+        height:30%;
+        text-align: center;
+    }
+    
+    
+    
+     
+}
+@media (max-width:1400px){
+    
+    .carousel{
+        width:80%;
+        height:40rem;
+        position:relative;
+        left:9%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:2%;
+    }
+    .containe {
+        width: 30%;                                     
+        margin-bottom: 20px;                          
+
+    }
+    .one{
+        height:15rem;
+        width:15rem;
+        
+    }
+    .card-body{
+        display: flex;
+        width:100%;
+        padding-top: 5%;
+    }
+    .in{
+        width:12.5rem;
+        height:10%;
+    } 
+    .temp{
+        width:100%;
+        gap:4%;
+        margin-left:5%;
+        padding-left: 1%;
+    }
+    .clock{
+        display: flex;
+        justify-content: center;
+        padding-left: 4px;
+        width:17%;
+        height:40%;
+        border-radius: 5px;
+        font-size:1rem;
+    }
+}
+@media(max-width:1200px){
+    nav{
+        gap:3%;
+    }
+    .home{
+        width:10%;
+    }
+    .contact{
+        width:10%;
+    }
+    .select{
+        padding-left: 3%;
+        width:70%;
+        margin:0;
+    }
+    input{
+        width:80%;
+    }
+    select{
+        height:100%;
+    }
+
+    .carousel{
+        width:80%;
+        height:40rem;
+        position:relative;
+        left:9%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:2%;
+    }
+    .containe {
+        width: 30%;                                     
+        margin-bottom: 20px;                          
+
+    }
+    .one{
+        height:14.5rem;
+        width:14.5rem;
+    }
+    .card-body{
+        display: flex;
+        width:100%;
+        padding-top: 5%;
+
+    }
+    .in{
+        width:12.2rem;
+        height:10%;
+    } 
+    .temp{
+        width:100%;
+        gap:4.5%;
+        margin-left:1%;
+    }
+    .clock{
+        display: flex;
+        justify-content: center;
+        padding-left: 4px;
+        width:19%;
+        height:40%;
+        border-radius: 5px;
+        font-size:0.8rem;
+    }
+}
+@media (max-width: 992px) {
+    nav{
+        gap:10%;
+    }
+    .home{
+        width:10%;
+    }
+    .select{
+        padding:0;
+        width:50%;
+        margin:0;
+    }
+    input{
+        width:100%;
+    }
+    select{
+        height:100%;
+    }
+    .changecol{
+        width:60%;
+        height:99%;
+        font-size:12.3px;
+    }
+    .carousel{
+        width:80%;
+        height:40rem;
+        position:relative;
+        left:9%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:2%;
+    }
+    .containe {
+        width: 30%;                                     
+        margin-bottom: 20px;                          
+
+    }
+    .one{
+        height:12rem;
+        width:12rem;
+    }
+    .card-body{
+        display: flex;
+        width:100%;
+        padding-top: 5%;
+    }
+    .in{
+        width:9.7rem;
+        height:10%;
+    } 
+    .temp{
+        width:100%;
+        gap:4%;
+        margin-left:0.7%;
+    }
+    .clock{
+        display: flex;
+        justify-content: center;
+        padding-left: 4px;
+        width:23.5%;
+        height:40%;
+        border-radius: 5px;
+        font-size:1rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    nav{
+        gap:5%;
+    }
+    .home{
+        width:10%;
+    }
+    .contact{
+        width:15%;
+    }
+    .select{
+        width:30%;
+    }
+    input{
+        width:100px;
+    }
+    select{
+        height:100%;
+    }
+    .changecol{
+        width:70%;
+        height:99.9%;
+        font-size: 11px;
+    }
+
+
+    .carousel{
+        width:80%;
+        height:40rem;
+        position:relative;
+        left:9%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:2%;
+        
+    }
+    .containe {
+        width:30%;
+        margin-bottom: 20px;
+     
+    }
+    .one{
+        height:8.7rem;
+        width:8.7rem;
+        
+
+    }
+    .card-body{
+        display: flex;
+        width:100%;
+        padding-top: 3%;
+    }
+    .in{
+        width:6.4rem;
+        height:10%;
+    } 
+    .temp{
+        width:100%;
+        gap:4%;
+        margin-left:1%;
+    }
+    .clock{
+        display: flex;
+        justify-content: center;
+        padding-left: 4px;
+        width:23.5%;
+        height:40%;
+        border-radius: 5px;
+        font-size:0.8rem;
+    }
+    
+}
+@media (max-width: 576px) {
+    nav{
+        gap:5%;
+    }
+    .select:hover{
+        border:2px solid white;
+    }
+    .contact{
+        width:16%;
+    }
+    input{
+       width:70%;
+    }
+    select{
+        height:50%;
+    }
+    .select{
+        width:30%;
+        height:50px;
+        display:flex;
+        align-items: center;
+    }
+    .changetheme{
+        width:30%;
+        height:50px;
+        
+    }
+    .dropdown{
+        margin-top: 25px;
+    }
+    .btn:hover{
+        cursor:pointer;
+        border:2px solid white;
+    }
+    .home{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:11.7%;
+        height:50%;
+        padding-left:5px;
+    }
+    .home:hover{
+        border:2px solid white;
+    }
+    .webwiz{
+        height:50px;
+       width:50px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("./webwiz_nitr_logo.jpeg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0;
+        
+    }
+    .changetheme{
+        padding-top: 9.8px;
+    }
+    .changecol{
+        font-size:10px;
+    }
+    .changecol:hover{
+        font-size:9px;
+    }
+    .carousel{
+        width:80%;
+        height:20rem;
+        position:relative;
+        left:9%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:2%;
+    }
+    .carousel:hover{
+        border:none;
+    }
+    .containe {
+        width:30%;                                    
+        margin-bottom: 20px;                          
+
+    }
+    .one{
+        height:6rem;
+        width:6rem;
+    }
+    .card-body{
+        display: flex;
+        width:100%;
+        
+        
+    }
+    .in{
+        width:3.7rem;
+        height:10%;
+    } 
+   
+    .temp{
+        width:100%;
+        gap:5%;
+        margin-left:4%;
+    }
+    .clock{
+        display: flex;
+        justify-content: center;
+        padding-left: 4px;
+        width:30%;
+        height:40%;
+        border-radius: 5px;
+        font-size:0.8rem;
+    }
+
+}
+
